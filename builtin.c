@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- *  * execBuiltInCommands - Executes a built-in command
- *   * @u_tokns: ...
- *    * @line: ...
- *     *
- *      * Return: 1 if is a built-in command or 0 if not
- *       */
+ * execBuiltInCommands - Executes a built-in command
+ * @u_tokns: ...
+ * @line: ...
+ *
+ * Return: 1 if is a built-in command or 0 if not
+ */
 int execBuiltInCommands(char **u_tokns, char *line)
 {
 	int i = 0;
